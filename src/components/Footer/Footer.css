@@ -1,0 +1,233 @@
+/* Footer */
+.footer {
+}
+
+/* Upper Footer Section */
+.footer-upper {
+    background-color: #f0f4f8;
+    padding: 60px 80px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.footer-left {
+    flex: 1;
+    max-width: 400px;
+}
+
+.footer-logo {
+    margin-bottom: 24px;
+}
+
+.footer-logo-img {
+    height: auto;
+    max-width: 150px;
+}
+
+.footer-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #2d3748;
+    margin: 0;
+}
+
+.footer-links {
+    flex: 2;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-column a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2d3748;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #1D71E3;
+}
+
+.footer-social {
+    max-width: 150px;
+}
+
+.social-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #2d3748;
+    margin: 0 0 16px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.social-icon .icon {
+    width: 20px;
+    height: 20px;
+    color: #2d3748;
+}
+
+/* Lower Footer Section */
+.footer-lower {
+    background-color: #1a365d;
+    padding: 24px 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-copyright {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-copyright p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Decorative Shapes */
+.footer-shapes {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    pointer-events: none;
+}
+
+.shape {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.shape-pink {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #ec4899, #f472b6);
+    left: 5%;
+    bottom: -20px;
+    transform: rotate(45deg);
+    box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
+}
+
+.shape-yellow {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #fbbf24, #fcd34d);
+    left: 12%;
+    bottom: -15px;
+    transform: rotate(-30deg);
+    box-shadow: 0 4px 12px rgba(251, 191, 36, 0.3);
+}
+
+.shape-orange {
+    width: 55px;
+    height: 55px;
+    background: linear-gradient(135deg, #f97316, #fb923c);
+    right: 15%;
+    bottom: -18px;
+    transform: rotate(60deg);
+    box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+}
+
+.shape-blue {
+    width: 65px;
+    height: 65px;
+    background: linear-gradient(135deg, #3b82f6, #60a5fa);
+    right: 5%;
+    bottom: -25px;
+    transform: rotate(-45deg);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .footer-upper {
+        padding: 50px 40px;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .footer-links {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    .footer-lower {
+        padding: 20px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-upper {
+        padding: 40px 20px;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .footer-lower {
+        padding: 16px 20px;
+    }
+    
+    .footer-shapes {
+        height: 60px;
+    }
+    
+    .shape-pink,
+    .shape-yellow,
+    .shape-orange,
+    .shape-blue {
+        width: 40px;
+        height: 40px;
+    }
+}
+

@@ -1,0 +1,80 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logo {
+    height: auto;
+    max-height: 50px;
+    cursor: pointer;
+    display: block;
+}
+
+.navbar-center {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar-center a {
+    text-decoration: none;
+    color: #2d3748;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s ease;
+}
+
+.navbar-center a:hover {
+    color: #1D71E3;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    color: #2d3748;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.search-icon:hover {
+    color: #1D71E3;
+}
+
+.signin-btn {
+    background-color: #1D71E3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.signin-btn:hover {
+    background-color: #1565c0;
+}
+

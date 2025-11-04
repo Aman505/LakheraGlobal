@@ -1,0 +1,120 @@
+/* HR Management Section */
+.hr-management-section {
+    padding: 80px 80px;
+    background-color: #ffffff;
+}
+
+.hr-management-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #FF6B35, #ff8c5a);
+    background-image: url('/assets/group.png');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hr-management-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 80px;
+    position: relative;
+    z-index: 2;
+}
+
+.hr-management-left {
+    flex: 1.2;
+    max-width: 600px;
+}
+
+.hr-management-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+    color: #ffffff;
+    margin: 0 0 24px 0;
+}
+
+.hr-management-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff;
+    margin: 0 0 32px 0;
+}
+
+.hr-management-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FF6B35;
+    background-color: transparent;
+    border: 2px solid #FF6B35;
+    border-radius: 8px;
+    padding: 12px 32px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.hr-management-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hr-management-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hr-management-section {
+        padding: 60px 40px;
+    }
+    
+    .hr-management-content {
+        flex-direction: column;
+        padding: 50px 40px;
+    }
+    
+    .hr-management-left {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .hr-management-heading {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hr-management-section {
+        padding: 40px 20px;
+    }
+    
+    .hr-management-content {
+        padding: 40px 30px;
+    }
+    
+    .hr-management-heading {
+        font-size: 28px;
+    }
+    
+    .hr-management-description {
+        font-size: 14px;
+    }
+}
+
