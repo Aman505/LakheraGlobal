@@ -79,7 +79,6 @@
     z-index: 3;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
     .hr-management-section {
         padding: 60px 40px;

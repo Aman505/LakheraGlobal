@@ -127,7 +127,6 @@
     text-align: left;
 }
 
-/* Swiper Pagination Dots */
 .testimonial-swiper :global(.swiper-pagination) {
     bottom: -30px;
     position: relative;
@@ -151,7 +150,6 @@
     height: 12px;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
     .testimonial-section {
         padding: 60px 40px;

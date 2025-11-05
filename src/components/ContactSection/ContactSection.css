@@ -1,4 +1,3 @@
-/* Contact Section */
 .contact-section {
     padding: 80px 80px;
     background-color: #ffffff;
@@ -178,7 +177,6 @@
     margin: 0;
 }
 
-/* Responsive Design */
 @media (max-width: 968px) {
     .contact-section {
         padding: 60px 40px;

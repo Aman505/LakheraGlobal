@@ -1,4 +1,3 @@
-/* Hero Section */
 .hero-section {
     padding: 60px 80px;
     background-color: #ffffff;
@@ -120,7 +119,6 @@
     margin-top: 20px;
 }
 
-/* Hero Slider */
 .hero-slider-container {
     width: 100%;
     max-width: 1200px;
@@ -172,7 +170,6 @@
     display: block;
 }
 
-/* Swiper Pagination Dots */
 .hero-swiper :global(.swiper-pagination) {
     bottom: 20px;
     position: relative;
@@ -196,27 +193,30 @@
     height: 12px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .hero-section {
         padding: 40px 20px;
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        text-align: center;
     }
+}
 
-    .hero-heading {
-        font-size: 32px;
-    }
+.hero-heading {
+    font-size: 32px;
+}
 
-    .hero-description {
-        font-size: 16px;
-    }
+.hero-description {
+    font-size: 16px;
+}
 
-    .hero-slide {
-        width: 300px;
-        height: 200px;
-    }
+.hero-slide {
+    width: 300px;
+    height: 200px;
+}
 
-    .trust-section {
-        flex-direction: column;
-        gap: 12px;
-    }
+.trust-section {
+    flex-direction: column;
+    gap: 12px;
 }
