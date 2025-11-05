@@ -53,9 +53,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    color: #FF6B35;
+    color: #FFFFFF;
     background-color: transparent;
-    border: 2px solid #FF6B35;
+    border: 1px solid #FFFFFF;
     border-radius: 8px;
     padding: 12px 32px;
     cursor: pointer;
@@ -84,17 +84,17 @@
     .hr-management-section {
         padding: 60px 40px;
     }
-    
+
     .hr-management-content {
         flex-direction: column;
         padding: 50px 40px;
     }
-    
+
     .hr-management-left {
         max-width: 100%;
         text-align: center;
     }
-    
+
     .hr-management-heading {
         font-size: 36px;
     }
@@ -104,17 +104,16 @@
     .hr-management-section {
         padding: 40px 20px;
     }
-    
+
     .hr-management-content {
         padding: 40px 30px;
     }
-    
+
     .hr-management-heading {
         font-size: 28px;
     }
-    
+
     .hr-management-description {
         font-size: 14px;
     }
 }
-

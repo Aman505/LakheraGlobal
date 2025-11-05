@@ -54,7 +54,7 @@
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
     padding: 32px 24px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.12);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,7 +156,7 @@
     .testimonial-section {
         padding: 60px 40px;
     }
-    
+
     .testimonial-heading {
         font-size: 36px;
     }
@@ -166,12 +166,12 @@
     .testimonial-section {
         padding: 40px 20px;
     }
-    
+
     .testimonial-heading {
         font-size: 28px;
         margin-bottom: 40px;
     }
-    
+
     .testimonial-card {
         padding: 24px 20px;
     }
@@ -180,4 +180,3 @@
 .swiper-slide {
     height: 100% !important;
 }
-

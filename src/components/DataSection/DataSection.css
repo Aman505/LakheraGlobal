@@ -25,7 +25,6 @@
     font-size: 48px;
     line-height: 1.2;
     color: #000000;
-    margin: 0 0 24px 0;
 }
 
 .data-heading-orange {
@@ -78,10 +77,10 @@
 }
 
 .wrapper-image {
-    width: 100%;
-    height: auto;
-    max-width: 600px;
     object-fit: contain;
+    height: 360px;
+    margin-left: 200px;
+
 }
 
 /* Responsive Design */
@@ -89,21 +88,21 @@
     .data-section {
         padding: 60px 40px;
     }
-    
+
     .data-section-container {
         flex-direction: column;
         gap: 40px;
     }
-    
+
     .data-section-left {
         align-items: center;
         text-align: center;
     }
-    
+
     .data-section-heading {
         font-size: 36px;
     }
-    
+
     .data-section-description {
         max-width: 100%;
     }
@@ -113,13 +112,12 @@
     .data-section {
         padding: 40px 20px;
     }
-    
+
     .data-section-heading {
         font-size: 28px;
     }
-    
+
     .data-section-description {
         font-size: 14px;
     }
 }
-

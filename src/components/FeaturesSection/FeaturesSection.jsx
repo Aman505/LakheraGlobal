@@ -4,22 +4,22 @@ import { Wallet, TrendingUp, Target } from "lucide-react";
 const FeaturesSection = () => {
     const features = [
         {
-            icon: "kk",
+            img: "public/assets/featuresection/Puzzle.svg",
             title: "Simplicity at its core",
             description: "Designed for anyone to use, no technical training needed."
         },
         {
-            icon: Wallet,
+            img: "public/assets/featuresection/MoneyBag.svg",
             title: "Transparent Pricing",
             description: "one platform, one cost. No surprises."
         },
         {
-            icon: TrendingUp,
+            img: "public/assets/featuresection/ComboChart.svg",
             title: "Growth - ready",
             description: "Scalable features that evolve with your business"
         },
         {
-            icon: Target,
+            img: "public/assets/featuresection/Goal.svg",
             title: "Engagement Tools",
             description: "Celebrate wins, gather feedback, and boost motivation."
         }
@@ -36,11 +36,10 @@ const FeaturesSection = () => {
 
                 <div className="features-grid">
                     {features.map((feature, index) => {
-                        const IconComponent = feature.icon;
                         return (
                             <div key={index} className="feature-card">
                                 <div className="feature-icon-wrapper">
-                                    <IconComponent className="feature-icon" />
+                                    <img src={feature.img} alt={feature.img} className='feature-icon' />
                                 </div>
                                 <h3 className="feature-title">{feature.title}</h3>
                                 <p className="feature-description">{feature.description}</p>

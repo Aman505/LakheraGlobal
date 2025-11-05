@@ -17,7 +17,7 @@ const Footer = () => {
                             solution that works together.
                         </p>
                     </div>
-                    
+
                     <div className="footer-links">
                         <div className="footer-column">
                             <a href="#">Back to Top</a>
@@ -26,7 +26,7 @@ const Footer = () => {
                             <a href="#">A Glimpse on Us</a>
                             <a href="#">Trainee Achievements</a>
                         </div>
-                        
+
                         <div className="footer-column">
                             <a href="#">Location</a>
                             <a href="#">Why Choose Us</a>
@@ -34,25 +34,25 @@ const Footer = () => {
                             <a href="#">Our Services</a>
                             <a href="#">FAQs</a>
                         </div>
-                        
+
                         <div className="footer-column footer-social">
                             <p className="social-heading">Follow us on</p>
                             <div className="social-icons">
                                 <a href="#" className="social-icon" aria-label="Twitter">
-                                    <Twitter className="icon" />
+                                    <img src="public/assets/footer/twitter.png" alt="twitter" className='icon' />
                                 </a>
                                 <a href="#" className="social-icon" aria-label="Facebook">
-                                    <Facebook className="icon" />
+                                    <img src="public/assets/footer/fb.png" alt="fb" className='icon' />
                                 </a>
-                                <a href="#" className="social-icon" aria-label="Instagram">
-                                    <Instagram className="icon" />
+                                <a href="#" className="social-icon insta-icon" aria-label="Instagram">
+                                    <img src="public/assets/footer/insta.png" alt="insta" className='icon' />
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <div className="footer-lower">
                 <div className="footer-copyright">
                     <p>© 2025, Zyvo Pvt. Ltd. All Rights Reserved.</p>

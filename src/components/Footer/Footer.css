@@ -1,8 +1,5 @@
-/* Footer */
-.footer {
-}
+.footer {}
 
-/* Upper Footer Section */
 .footer-upper {
     background-color: #f0f4f8;
     padding: 60px 80px;
@@ -42,7 +39,7 @@
 .footer-links {
     flex: 2;
     display: flex;
-    gap: 40px;
+    gap: 100px;
     justify-content: flex-end;
 }
 
@@ -74,7 +71,7 @@
     font-weight: 600;
     font-size: 14px;
     color: #2d3748;
-    margin: 0 0 16px 0;
+    margin: 0 0 6px 0;
 }
 
 .social-icons {
@@ -85,14 +82,13 @@
 .social-icon {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+
 }
 
 .social-icon:hover {
@@ -104,11 +100,18 @@
     width: 20px;
     height: 20px;
     color: #2d3748;
+    display: block;
+    margin: auto;
+    object-fit: contain;
 }
 
-/* Lower Footer Section */
+.insta-icon .icon {
+    width: 30px;
+    height: 30px;
+}
+
 .footer-lower {
-    background-color: #1a365d;
+    background-color: #2C61C4;
     padding: 24px 80px;
     position: relative;
     overflow: hidden;
@@ -128,7 +131,6 @@
     margin: 0;
 }
 
-/* Decorative Shapes */
 .footer-shapes {
     position: absolute;
     bottom: 0;
@@ -183,22 +185,21 @@
     box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
     .footer-upper {
         padding: 50px 40px;
     }
-    
+
     .footer-container {
         flex-direction: column;
         gap: 40px;
     }
-    
+
     .footer-links {
         justify-content: flex-start;
         flex-wrap: wrap;
     }
-    
+
     .footer-lower {
         padding: 20px 40px;
     }
@@ -208,20 +209,20 @@
     .footer-upper {
         padding: 40px 20px;
     }
-    
+
     .footer-links {
         flex-direction: column;
         gap: 30px;
     }
-    
+
     .footer-lower {
         padding: 16px 20px;
     }
-    
+
     .footer-shapes {
         height: 60px;
     }
-    
+
     .shape-pink,
     .shape-yellow,
     .shape-orange,
@@ -230,4 +231,3 @@
         height: 40px;
     }
 }
-

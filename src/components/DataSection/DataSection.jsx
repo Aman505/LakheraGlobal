@@ -8,24 +8,20 @@ const DataSection = () => {
                     <h2 className="data-section-heading">
                         <span className="data-heading-orange">Unleash</span> the Power of Data
                     </h2>
-                    
+
                     <p className="data-section-description">
-                        Our comprehensive platform provides everything growing businesses need to thrive. From seamless client management to streamlined team collaboration, we offer a unified solution that brings all your essential tools together in one powerful, intuitive system.
+                        Most platforms focus only on customers or employees—but we bring both worlds together. Our solution is designed for growing businesses that want seamless client management to nurture leads, track interactions, and close deals faster; smarter team management to onboard talent, monitor performance, and keep employees engaged; and one unified system that eliminates the need to juggle multiple tools or deal with hidden add-ons.
                     </p>
-                    
+
                     <button className="data-section-button">
                         Start Your Free Trial
                     </button>
-                    
-                    <p className="data-section-subtext">
-                        No credit card required, Cancel anytime.
-                    </p>
                 </div>
-                
+
                 <div className="data-section-right">
-                    <img 
-                        src="/assets/wrapperImg.svg" 
-                        alt="Data Power Visualization" 
+                    <img
+                        src="/assets/datasection/wrapperImg.svg"
+                        alt="Data Power Visualization"
                         className="wrapper-image"
                     />
                 </div>

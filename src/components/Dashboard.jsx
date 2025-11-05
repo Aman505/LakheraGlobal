@@ -106,10 +106,10 @@ const Dashboard = () => {
             <FeaturesSection />
             <div className="brand-strip">
                 <div className="brand-strip-content">
-                    {[...Array(12)].map((_, index) => (
+                    {[...Array(14)].map((_, index) => (
                         <img
                             key={index}
-                            src="/assets/brand.png"
+                            src="/assets/datasection/brand.png"
                             alt="Brand Logo"
                             className="brand-logo"
                         />
