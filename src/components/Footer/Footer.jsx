@@ -58,10 +58,19 @@ const Footer = () => {
                     <p>© 2025, Zyvo Pvt. Ltd. All Rights Reserved.</p>
                 </div>
                 <div className="footer-shapes">
-                    <div className="shape shape-pink"></div>
-                    <div className="shape shape-yellow"></div>
-                    <div className="shape shape-orange"></div>
-                    <div className="shape shape-blue"></div>
+                    <div className="shape shape-yellow">
+                        <img src="public\assets\footer\star1.png" alt="star1" />
+                    </div>
+                    <div className="shape shape-pink">
+                        <img src="public\assets\footer\star2.png" alt="star2" />
+                    </div>
+                    <div className="shape shape-orange">
+                        <img src="public\assets\footer\star3.png" alt="star3" />
+                    </div>
+
+                    <div className="shape shape-blue">
+                        <img src="public\assets\footer\star4.png" alt="star4" />
+                    </div>
                 </div>
             </div>
         </footer>
